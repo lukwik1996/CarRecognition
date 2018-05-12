@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e03cb5fa-040f-4fe4-a7f3-f1787356bff2" name="Default" comment="" />
+    <list default="true" id="e03cb5fa-040f-4fe4-a7f3-f1787356bff2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/RCNN/CMMR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelRecognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/ModelRecognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splitImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/splitImages.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,30 +16,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CarRecognition$splitImages.coverage" NAME="splitImages Coverage Results" MODIFIED="1524744687699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CarRecognition$ModelRecognition.coverage" NAME="ModelRecognition Coverage Results" MODIFIED="1524744575220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CarRecognition$ModelRecognition__resnext_.coverage" NAME="ModelRecognition (resnext) Coverage Results" MODIFIED="1525686751260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CarRecognition$CMMR.coverage" NAME="CMMR Coverage Results" MODIFIED="1525827067881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RCNN" />
+    <SUITE FILE_PATH="coverage/CarRecognition$splitImages.coverage" NAME="splitImages Coverage Results" MODIFIED="1525875201634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CarRecognition$ModelRecognition.coverage" NAME="ModelRecognition Coverage Results" MODIFIED="1525896158541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CarRecognition$image_test.coverage" NAME="image_test Coverage Results" MODIFIED="1525913092660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CarRecognition$ModelRecognition__1_.coverage" NAME="ModelRecognition (1) Coverage Results" MODIFIED="1525722026264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/resnext" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModelRecognition.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModelRecognition.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-926">
+              <caret line="168" column="73" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="73" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#607#1535#0" />
+                <element signature="e#1671#3311#0" />
+                <element signature="e#3420#3554#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splitImages.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <file leaf-file-name="image_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+            <state relative-caret-position="289">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="93" selection-end-column="34" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,11 +60,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ModelRecognition (resnext).py" />
+        <option value="$PROJECT_DIR$/mm/ModelRecognition.py" />
+        <option value="$PROJECT_DIR$/resnext/ModelRecognition.py" />
+        <option value="$PROJECT_DIR$/RCNN/CMMR.py" />
         <option value="$PROJECT_DIR$/splitImages.py" />
         <option value="$PROJECT_DIR$/ModelRecognition.py" />
+        <option value="$PROJECT_DIR$/image_test.py" />
       </list>
     </option>
   </component>
@@ -63,33 +84,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="756" />
-    <option name="y" value="65" />
-    <option name="width" value="1087" />
-    <option name="height" value="1071" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CarRecognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -106,7 +114,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.splitImages">
+  <component name="RunManager" selected="Python.image_test">
+    <configuration name="CMMR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CarRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RCNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RCNN/CMMR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ModelRecognition (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CarRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resnext" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resnext/ModelRecognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ModelRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CarRecognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +167,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ModelRecognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="image_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CarRecognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +213,17 @@
     <list>
       <item itemvalue="Python.ModelRecognition" />
       <item itemvalue="Python.splitImages" />
+      <item itemvalue="Python.image_test" />
+      <item itemvalue="Python.ModelRecognition (1)" />
+      <item itemvalue="Python.CMMR" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.splitImages" />
+        <item itemvalue="Python.image_test" />
         <item itemvalue="Python.ModelRecognition" />
+        <item itemvalue="Python.splitImages" />
+        <item itemvalue="Python.CMMR" />
+        <item itemvalue="Python.ModelRecognition (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,19 +244,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32624868" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005208" side_tool="true" weight="0.32624868" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32837406" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.25292242" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32943678" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3296875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -193,7 +264,32 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32943678" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.51859725" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005208" side_tool="true" weight="0.32624868" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3296875" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32943678" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32837406" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -203,17 +299,81 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mm/ModelRecognition.py" />
     <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="5933">
+          <caret line="349" column="10" selection-start-line="349" selection-start-column="10" selection-end-line="349" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5865">
+          <caret line="345" lean-forward="true" selection-start-line="345" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -221,9 +381,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -231,9 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -241,9 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -251,9 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -268,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -285,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -302,9 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,9 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,9 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,9 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,9 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -387,9 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,9 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -414,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -448,22 +594,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ModelRecognition (resnext).py" />
+    <entry file="file://$PROJECT_DIR$/mm/ModelRecognition.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/CarRecognition/Lib/site-packages/skimage/io/manage_plugins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/CarRecognition/Lib/site-packages/skimage/transform/_warps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/CarRecognition/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RCNN/CMMR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/splitImages.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnext/ModelRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ModelRecognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-926">
+          <caret line="168" column="73" selection-start-line="168" selection-start-column="47" selection-end-line="168" selection-end-column="73" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#607#1535#0" />
+            <element signature="e#1671#3311#0" />
+            <element signature="e#3420#3554#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="93" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

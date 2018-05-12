@@ -2,43 +2,72 @@ import os
 import shutil
 import random
 
-directory = "D:\\si\\VMMRdb\\"
-destination = "D:\\si\\mini\\"
 
-folders = [f.path for f in os.scandir(directory) if f.is_dir()]
-folderNames = []
-folderPaths = []
+def split():
+    folders = [f.path for f in os.scandir(directory) if f.is_dir()]
+    folderNames = []
+    folderPaths = []
 
-for f in folders:
-    if len([name for name in os.listdir(f) if os.path.isfile(os.path.join(f, name))]) >= 50:
-        folderNames.append(os.path.basename(f))
+    for f in folders:
+        # if len([name for name in os.listdir(f) if os.path.isfile(os.path.join(f, name))]) >= 200:
+        folderNames.append(os.path.basename(f[:-5]))
         folderPaths.append(f + "\\")
 
-for folder, fname in zip(folderPaths, folderNames):
+    for folder, fname in zip(folderPaths, folderNames):
 
-    fileNum = len([name for name in os.listdir(folder) if os.path.isfile(os.path.join(folder, name))])
-    fileNumTest = 0.2 * fileNum
-    files = os.listdir(folder)
-    random.shuffle(files)
-    i = 0
+        fileNum = len([name for name in os.listdir(folder) if os.path.isfile(os.path.join(folder, name))])
+        fileNumTest = 0.2 * fileNum
+        files = os.listdir(folder)
+        random.shuffle(files)
+        i = 0
 
-    for name in files:
+        for name in files:
 
-        if i < fileNumTest:
-            dest = destination + "test\\" + fname
+            if i < fileNumTest:
+                dest = destination + "test\\" + fname
 
-            if not os.path.exists(dest):
-                os.mkdir(dest)
+                if not os.path.exists(dest):
+                    os.mkdir(dest)
 
-            shutil.copy(folder + name, dest)
+                shutil.copy(folder + name, dest)
 
-        else:
-            dest = destination + "train\\" + fname
+            else:
+                dest = destination + "train\\" + fname
 
-            if not os.path.exists(dest):
-                os.mkdir(dest)
+                if not os.path.exists(dest):
+                    os.mkdir(dest)
 
-            shutil.copy(folder + name, dest)
+                shutil.copy(folder + name, dest)
 
-        i += 1
+            i += 1
 
+
+def remove():
+
+    folderNames = []
+
+    for folder in os.listdir(dataset_train):
+
+        f_path = dataset_train + folder
+        if len([name for name in os.listdir(f_path) if os.path.isfile(os.path.join(f_path, name))]) < 500:
+            folderNames.append(folder)
+            shutil.rmtree(f_path)
+
+    for folder in os.listdir(dataset_test):
+
+        f_path = dataset_test + folder
+        if folder in folderNames:
+            shutil.rmtree(f_path)
+
+
+
+if __name__ == "__main__":
+
+    directory = "D:\\si\\VMMRdb\\"
+    destination = "D:\\si\\dataset\\"
+
+    dataset_train = "D:\\si\\dataset\\train\\"
+    dataset_test = "D:\\si\\dataset\\test\\"
+
+    # split()
+    # remove()
