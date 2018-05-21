@@ -201,7 +201,7 @@ if __name__ == '__main__':
     json_file.close()
     model = model_from_json(model_json)
     model.load_weights(args['model'] + ".h5")
-    print("[INFO] model wczytany")
+    print("[INFO] model loaded")
 
     image_path = args['image']
 

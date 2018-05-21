@@ -214,10 +214,6 @@ def load_data():
 
 if __name__ == "__main__":
 
-    dirTest = "D:\\si\\dataset\\test\\"
-    dirTrain = "D:\\si\\dataset\\train\\"
-    prediction = "D:\\si\\predictions\\"
-
     epochs_n = 100
     img_size = 50
     input_shape = (img_size, img_size, 3)
@@ -226,8 +222,13 @@ if __name__ == "__main__":
     ap.add_argument("-s", "--save", help='path to save model')
     ap.add_argument("-l", "--load", help='path to load model')
     ap.add_argument("-p", "--plot", help='path to output accuracy/loss plot')
+    ap.add_argument("-d", "--dataset", help='path to dataset')
     args = vars(ap.parse_args())
 
+    prediction = "predictions\\"
+	dirTrain = args['dataset'] + "\\train\\"
+	dirTest = args['dataset'] + "\\test\\"
+	
     # create_dataset(dirTrain, dirTest)
     data_train, data_test, labels_train, labels_test, num_classes, labels = load_data()
 
@@ -250,7 +251,7 @@ if __name__ == "__main__":
         with open(args['save'] + ".json", "w") as json_file:
             json_file.write(model_json)
         model.save_weights(args['save'] + ".h5")
-        print("[INFO] model zapisany")
+        print("[INFO] model saved")
 
         (eval_loss, eval_accuracy, eval_top5_acc) = model.evaluate(x=data_test, y=transformed_labels_test, verbose=1)
         print("[INFO] accuracy: {: .2f}%".format(eval_accuracy * 100))
@@ -282,9 +283,6 @@ if __name__ == "__main__":
 
     if args['load']:
 
-        # Create model
-        # model = cnn(num_classes)
-
         # Load model
         json_file = open(args['load'] + ".json", 'r')
         model_json = json_file.read()
@@ -305,7 +303,3 @@ if __name__ == "__main__":
     file.close()
 
     # predict(data_test, labels)
-
-# activate CarRecognition
-# cd C:\Users\Lukasz\PycharmProjects\CarRecognition
-# python ModelRecognition.py --save cmmr

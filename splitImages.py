@@ -63,11 +63,13 @@ def remove():
 
 if __name__ == "__main__":
 
-    directory = "D:\\si\\VMMRdb\\"
-    destination = "D:\\si\\dataset\\"
-
-    dataset_train = "D:\\si\\dataset\\train\\"
-    dataset_test = "D:\\si\\dataset\\test\\"
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-s", "--source", help='path to load full dataset')
+    ap.add_argument("-d", "--destination", help='path to save split dataset')
+    args = vars(ap.parse_args())
+	
+    directory = args['source']
+    destination = args['destination']
 
     # split()
     # remove()
